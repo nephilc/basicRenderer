@@ -1,4 +1,4 @@
 # GLRenderer
 
-[alt text](https://github.com/[nephilc]/[basicRenderer]/blob/[master]/demo-pict.png?raw=true)
+![Alt text](./demo-pict.png?raw=true "demo")
 
