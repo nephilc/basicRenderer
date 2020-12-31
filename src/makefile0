@@ -1,0 +1,10 @@
+CC = g++
+EXE = prog1
+SOURCES =  main.cpp glad.c
+#put conditions in the middle of rules or to set variables among other things..
+#when using gcc with any language one has to specify the language in order
+#to link with sme important libraries
+#or else use a command specific for that language.in this case its g++
+#glm for cxx is a header only library
+target : main.cpp glad.c shader.hpp mesh.hpp model.hpp stb_image.h
+	${CC}  $SOURCES  -lassimp -lglfw3   -lX11 -lGL -lXrandr -ldl  -lXi -lpthread -lm -o out1
